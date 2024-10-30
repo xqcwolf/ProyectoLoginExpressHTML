@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <img width="150" src="https://img.freepik.com/vector-premium/logotipo-mascota-lobo-azul-fuerte_41066-239.jpg" alt="">
+        <h1>Formularios</h1>
+
+        <!-- Formulario de Inicio de Sesión -->
+        <form action="http://localhost:3000/Login" method="get">
+            <h3>Ingresar</h3>
+            <label for="user">Usuario:</label>
+            <input type="text" id="user" name="user" required>
+            <br>
+            <label for="pass">Contraseña:</label>
+            <input type="password" id="pass" name="pass" required>
+            <br>
+            <input type="submit" value="Entrar">
+        </form>
+
+        <!-- Formulario de Registro -->
+        <br>
+        <form action="http://localhost:3000/Registro" method="get">
+            <h3>Registrar</h3>
+            <label for="user">Usuario:</label>
+            <input type="text" id="user" name="user" required>
+            <br>
+            <label for="pass">Contraseña:</label>
+            <input type="password" id="pass" name="pass" required>
+            <br>
+            <input type="submit" value="Registrar">
+        </form>
+    </main>
+</body>
+</html>
